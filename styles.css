@@ -17,9 +17,13 @@ h2 {
     text-align: center;
 }
 
+.imgs {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
 img {
-    max-width: 100%;
+    max-width: 30%; 
     height: auto;
-    display: block;
-    margin: 10px auto;
+    margin: 10px; 
 }
